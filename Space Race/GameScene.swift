@@ -67,8 +67,17 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         sprite.physicsBody?.angularDamping = 0
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
-
+    override func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent) {
+        let touch = touches.first as! UITouch
+        var location = touch.locationInNode(self)
+        
+        if location.y < 100 {
+            location.y = 100
+        } else if location.y > 668 {
+            location.y = 668
+        }
+        
+        player.position = location
     }
    
     override func update(currentTime: CFTimeInterval) {
