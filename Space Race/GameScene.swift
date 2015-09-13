@@ -79,6 +79,17 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         player.position = location
     }
+    
+    func didBeginContact(contact: SKPhysicsContact) {
+        let explosionPath = NSBundle.mainBundle().pathForResource("explosion", ofType: "sks")!
+        let explosion = NSKeyedUnarchiver.unarchiveObjectWithFile(explosionPath) as! SKEmitterNode
+        explosion.position = player.position
+        addChild(explosion)
+        
+        player.removeFromParent()
+        
+        gameOver = true
+    }
    
     override func update(currentTime: CFTimeInterval) {
         for node in children as! [SKNode] {
