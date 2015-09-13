@@ -15,6 +15,20 @@
 		CAB0222F1BA624AC00760761 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB0222E1BA624AC00760761 /* Images.xcassets */; };
 		CAB022321BA624AC00760761 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAB022301BA624AC00760761 /* LaunchScreen.xib */; };
 		CAB0223E1BA624AC00760761 /* Space_RaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0223D1BA624AC00760761 /* Space_RaceTests.swift */; };
+		CAB022491BA625FB00760761 /* Array+Shuffling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB022471BA625FB00760761 /* Array+Shuffling.swift */; };
+		CAB0224A1BA625FB00760761 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB022481BA625FB00760761 /* Helper.swift */; };
+		CAB022581BA6260400760761 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB0224C1BA6260400760761 /* ball.png */; };
+		CAB022591BA6260400760761 /* ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB0224D1BA6260400760761 /* ball@2x.png */; };
+		CAB0225A1BA6260400760761 /* bigSpark.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB0224E1BA6260400760761 /* bigSpark.png */; };
+		CAB0225B1BA6260400760761 /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = CAB0224F1BA6260400760761 /* explosion.sks */; };
+		CAB0225C1BA6260400760761 /* hammer.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB022501BA6260400760761 /* hammer.png */; };
+		CAB0225D1BA6260400760761 /* hammer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB022511BA6260400760761 /* hammer@2x.png */; };
+		CAB0225E1BA6260400760761 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB022521BA6260400760761 /* player.png */; };
+		CAB0225F1BA6260400760761 /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB022531BA6260400760761 /* player@2x.png */; };
+		CAB022601BA6260400760761 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB022541BA6260400760761 /* spark.png */; };
+		CAB022611BA6260400760761 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = CAB022551BA6260400760761 /* Starfield.sks */; };
+		CAB022621BA6260400760761 /* tv.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB022561BA6260400760761 /* tv.png */; };
+		CAB022631BA6260400760761 /* tv@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB022571BA6260400760761 /* tv@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,20 @@
 		CAB022371BA624AC00760761 /* Space RaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space RaceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB0223C1BA624AC00760761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAB0223D1BA624AC00760761 /* Space_RaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_RaceTests.swift; sourceTree = "<group>"; };
+		CAB022471BA625FB00760761 /* Array+Shuffling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shuffling.swift"; sourceTree = "<group>"; };
+		CAB022481BA625FB00760761 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CAB0224C1BA6260400760761 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		CAB0224D1BA6260400760761 /* ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball@2x.png"; sourceTree = "<group>"; };
+		CAB0224E1BA6260400760761 /* bigSpark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigSpark.png; sourceTree = "<group>"; };
+		CAB0224F1BA6260400760761 /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		CAB022501BA6260400760761 /* hammer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hammer.png; sourceTree = "<group>"; };
+		CAB022511BA6260400760761 /* hammer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hammer@2x.png"; sourceTree = "<group>"; };
+		CAB022521BA6260400760761 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		CAB022531BA6260400760761 /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player@2x.png"; sourceTree = "<group>"; };
+		CAB022541BA6260400760761 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		CAB022551BA6260400760761 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		CAB022561BA6260400760761 /* tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tv.png; sourceTree = "<group>"; };
+		CAB022571BA6260400760761 /* tv@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tv@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				CAB022231BA624AC00760761 /* AppDelegate.swift */,
+				CAB022471BA625FB00760761 /* Array+Shuffling.swift */,
+				CAB022481BA625FB00760761 /* Helper.swift */,
 				CAB022251BA624AC00760761 /* GameScene.sks */,
 				CAB022271BA624AC00760761 /* GameScene.swift */,
 				CAB022291BA624AC00760761 /* GameViewController.swift */,
@@ -96,6 +126,7 @@
 		CAB022211BA624AC00760761 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CAB0224B1BA6260400760761 /* Content */,
 				CAB022221BA624AC00760761 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -116,6 +147,25 @@
 				CAB0223C1BA624AC00760761 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAB0224B1BA6260400760761 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAB0224C1BA6260400760761 /* ball.png */,
+				CAB0224D1BA6260400760761 /* ball@2x.png */,
+				CAB0224E1BA6260400760761 /* bigSpark.png */,
+				CAB0224F1BA6260400760761 /* explosion.sks */,
+				CAB022501BA6260400760761 /* hammer.png */,
+				CAB022511BA6260400760761 /* hammer@2x.png */,
+				CAB022521BA6260400760761 /* player.png */,
+				CAB022531BA6260400760761 /* player@2x.png */,
+				CAB022541BA6260400760761 /* spark.png */,
+				CAB022551BA6260400760761 /* Starfield.sks */,
+				CAB022561BA6260400760761 /* tv.png */,
+				CAB022571BA6260400760761 /* tv@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,8 +248,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB022631BA6260400760761 /* tv@2x.png in Resources */,
+				CAB022611BA6260400760761 /* Starfield.sks in Resources */,
 				CAB022321BA624AC00760761 /* LaunchScreen.xib in Resources */,
+				CAB0225E1BA6260400760761 /* player.png in Resources */,
+				CAB0225A1BA6260400760761 /* bigSpark.png in Resources */,
+				CAB022591BA6260400760761 /* ball@2x.png in Resources */,
+				CAB022621BA6260400760761 /* tv.png in Resources */,
+				CAB022581BA6260400760761 /* ball.png in Resources */,
+				CAB022601BA6260400760761 /* spark.png in Resources */,
+				CAB0225D1BA6260400760761 /* hammer@2x.png in Resources */,
+				CAB0225C1BA6260400760761 /* hammer.png in Resources */,
+				CAB0225F1BA6260400760761 /* player@2x.png in Resources */,
 				CAB0222F1BA624AC00760761 /* Images.xcassets in Resources */,
+				CAB0225B1BA6260400760761 /* explosion.sks in Resources */,
 				CAB022261BA624AC00760761 /* GameScene.sks in Resources */,
 				CAB0222D1BA624AC00760761 /* Main.storyboard in Resources */,
 			);
@@ -219,7 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB022491BA625FB00760761 /* Array+Shuffling.swift in Sources */,
 				CAB022281BA624AC00760761 /* GameScene.swift in Sources */,
+				CAB0224A1BA625FB00760761 /* Helper.swift in Sources */,
 				CAB0222A1BA624AC00760761 /* GameViewController.swift in Sources */,
 				CAB022241BA624AC00760761 /* AppDelegate.swift in Sources */,
 			);
