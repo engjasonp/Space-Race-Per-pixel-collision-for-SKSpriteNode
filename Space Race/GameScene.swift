@@ -72,6 +72,14 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
    
     override func update(currentTime: CFTimeInterval) {
-
+        for node in children as! [SKNode] {
+            if node.position.x < -300 {
+                node.removeFromParent()
+            }
+        }
+        
+        if !gameOver {
+            score += 1
+        }
     }
 }
